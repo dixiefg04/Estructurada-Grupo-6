@@ -34,10 +34,10 @@ Partial Class Form1
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txt_Usuario = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txt_Contraseña = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
@@ -158,10 +158,10 @@ Partial Class Form1
         Me.Panel3.BackColor = System.Drawing.Color.PaleTurquoise
         Me.Panel3.Controls.Add(Me.Label2)
         Me.Panel3.Controls.Add(Me.Label3)
-        Me.Panel3.Controls.Add(Me.TextBox1)
+        Me.Panel3.Controls.Add(Me.txt_Usuario)
         Me.Panel3.Controls.Add(Me.Button1)
         Me.Panel3.Controls.Add(Me.Label4)
-        Me.Panel3.Controls.Add(Me.TextBox2)
+        Me.Panel3.Controls.Add(Me.txt_Contraseña)
         Me.Panel3.Controls.Add(Me.Button2)
         Me.Panel3.Location = New System.Drawing.Point(530, -4)
         Me.Panel3.Name = "Panel3"
@@ -192,13 +192,13 @@ Partial Class Form1
         Me.Label3.TabIndex = 57
         Me.Label3.Text = " Usuario"
         '
-        'TextBox1
+        'txt_Usuario
         '
-        Me.TextBox1.Location = New System.Drawing.Point(174, 175)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(192, 22)
-        Me.TextBox1.TabIndex = 58
+        Me.txt_Usuario.Location = New System.Drawing.Point(174, 175)
+        Me.txt_Usuario.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_Usuario.Name = "txt_Usuario"
+        Me.txt_Usuario.Size = New System.Drawing.Size(192, 22)
+        Me.txt_Usuario.TabIndex = 58
         '
         'Button1
         '
@@ -221,22 +221,22 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(38, 235)
+        Me.Label4.Location = New System.Drawing.Point(19, 235)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(121, 28)
+        Me.Label4.Size = New System.Drawing.Size(147, 28)
         Me.Label4.TabIndex = 59
-        Me.Label4.Text = "Password"
+        Me.Label4.Text = "Contraseña"
         '
-        'TextBox2
+        'txt_Contraseña
         '
-        Me.TextBox2.Location = New System.Drawing.Point(174, 235)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(192, 25)
-        Me.TextBox2.TabIndex = 61
+        Me.txt_Contraseña.Location = New System.Drawing.Point(174, 235)
+        Me.txt_Contraseña.Margin = New System.Windows.Forms.Padding(4)
+        Me.txt_Contraseña.Multiline = True
+        Me.txt_Contraseña.Name = "txt_Contraseña"
+        Me.txt_Contraseña.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txt_Contraseña.Size = New System.Drawing.Size(192, 25)
+        Me.txt_Contraseña.TabIndex = 61
         '
         'Button2
         '
@@ -276,6 +276,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
@@ -298,10 +299,10 @@ Partial Class Form1
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txt_Usuario As TextBox
     Private WithEvents Button1 As Button
     Friend WithEvents Label4 As Label
-    Private WithEvents TextBox2 As TextBox
+    Private WithEvents txt_Contraseña As TextBox
     Private WithEvents Button2 As Button
     Friend WithEvents PictureBox1 As PictureBox
 End Class

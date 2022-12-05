@@ -22,6 +22,11 @@ Hospital Grupo 6
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
+<member name="P:Hospital_Grupo_6.My.Resources.Resources._20944890">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Hospital_Grupo_6.My.Resources.Resources._60546775_1634242861915850_r">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -33,6 +38,21 @@ Hospital Grupo 6
 </summary>
 </member>
 <member name="P:Hospital_Grupo_6.My.Resources.Resources.clipart4644898">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hospital_Grupo_6.My.Resources.Resources.consulta">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hospital_Grupo_6.My.Resources.Resources.doctores">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Hospital_Grupo_6.My.Resources.Resources.pacientes">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

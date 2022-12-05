@@ -12,3 +12,20 @@ C:\Users\HP\source\repos\Hospital Grupo 6\Hospital Grupo 6\obj\Debug\Hospital Gr
 C:\Users\HP\source\repos\Hospital Grupo 6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.xml
 C:\Users\HP\source\repos\Hospital Grupo 6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.pdb
 C:\Users\HP\source\repos\Hospital Grupo 6\Hospital Grupo 6\obj\Debug\Hospital_Grupo_6.Form2.resources
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\bin\Debug\Hospital Grupo 6.exe.config
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\bin\Debug\Hospital Grupo 6.exe
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\bin\Debug\Hospital Grupo 6.pdb
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\bin\Debug\Hospital Grupo 6.xml
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.vbproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.vbproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital_Grupo_6.Form1.resources
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital_Grupo_6.Menú.resources
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital_Grupo_6.Consultas.resources
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital_Grupo_6.Pacientes.resources
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital_Grupo_6.Empleados.resources
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital_Grupo_6.Resources.resources
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.vbproj.GenerateResource.cache
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.vbproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.exe
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.xml
+C:\Users\HP\source\repos\Estructurada-Grupo-6\Hospital Grupo 6\obj\Debug\Hospital Grupo 6.pdb
