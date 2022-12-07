@@ -47,6 +47,7 @@ Partial Class Consultas
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Menú = New System.Windows.Forms.Button()
         ID_CONSULTALabel = New System.Windows.Forms.Label()
         DPI_PACIENTELabel = New System.Windows.Forms.Label()
         ID_EMPLEADOLabel = New System.Windows.Forms.Label()
@@ -58,6 +59,61 @@ Partial Class Consultas
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'ID_CONSULTALabel
+        '
+        ID_CONSULTALabel.AutoSize = True
+        ID_CONSULTALabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        ID_CONSULTALabel.Location = New System.Drawing.Point(8, 211)
+        ID_CONSULTALabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        ID_CONSULTALabel.Name = "ID_CONSULTALabel"
+        ID_CONSULTALabel.Size = New System.Drawing.Size(99, 16)
+        ID_CONSULTALabel.TabIndex = 93
+        ID_CONSULTALabel.Text = "ID CONSULTA:"
+        '
+        'DPI_PACIENTELabel
+        '
+        DPI_PACIENTELabel.AutoSize = True
+        DPI_PACIENTELabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        DPI_PACIENTELabel.Location = New System.Drawing.Point(8, 243)
+        DPI_PACIENTELabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        DPI_PACIENTELabel.Name = "DPI_PACIENTELabel"
+        DPI_PACIENTELabel.Size = New System.Drawing.Size(102, 16)
+        DPI_PACIENTELabel.TabIndex = 95
+        DPI_PACIENTELabel.Text = "DPI PACIENTE:"
+        '
+        'ID_EMPLEADOLabel
+        '
+        ID_EMPLEADOLabel.AutoSize = True
+        ID_EMPLEADOLabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        ID_EMPLEADOLabel.Location = New System.Drawing.Point(8, 275)
+        ID_EMPLEADOLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        ID_EMPLEADOLabel.Name = "ID_EMPLEADOLabel"
+        ID_EMPLEADOLabel.Size = New System.Drawing.Size(100, 16)
+        ID_EMPLEADOLabel.TabIndex = 97
+        ID_EMPLEADOLabel.Text = "ID EMPLEADO:"
+        '
+        'PadecimientoLabel
+        '
+        PadecimientoLabel.AutoSize = True
+        PadecimientoLabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        PadecimientoLabel.Location = New System.Drawing.Point(9, 304)
+        PadecimientoLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        PadecimientoLabel.Name = "PadecimientoLabel"
+        PadecimientoLabel.Size = New System.Drawing.Size(93, 16)
+        PadecimientoLabel.TabIndex = 103
+        PadecimientoLabel.Text = "Padecimiento:"
+        '
+        'Estado_ConsultaLabel
+        '
+        Estado_ConsultaLabel.AutoSize = True
+        Estado_ConsultaLabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Estado_ConsultaLabel.Location = New System.Drawing.Point(9, 336)
+        Estado_ConsultaLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Estado_ConsultaLabel.Name = "Estado_ConsultaLabel"
+        Estado_ConsultaLabel.Size = New System.Drawing.Size(108, 16)
+        Estado_ConsultaLabel.TabIndex = 105
+        Estado_ConsultaLabel.Text = "Estado Consulta:"
         '
         'Panel1
         '
@@ -196,17 +252,6 @@ Partial Class Consultas
         Me.Label4.TabIndex = 108
         Me.Label4.Text = "Verbena Hospital" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'ID_CONSULTALabel
-        '
-        ID_CONSULTALabel.AutoSize = True
-        ID_CONSULTALabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        ID_CONSULTALabel.Location = New System.Drawing.Point(8, 211)
-        ID_CONSULTALabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        ID_CONSULTALabel.Name = "ID_CONSULTALabel"
-        ID_CONSULTALabel.Size = New System.Drawing.Size(99, 16)
-        ID_CONSULTALabel.TabIndex = 93
-        ID_CONSULTALabel.Text = "ID CONSULTA:"
-        '
         'ID_CONSULTATextBox
         '
         Me.ID_CONSULTATextBox.Location = New System.Drawing.Point(132, 208)
@@ -214,17 +259,6 @@ Partial Class Consultas
         Me.ID_CONSULTATextBox.Name = "ID_CONSULTATextBox"
         Me.ID_CONSULTATextBox.Size = New System.Drawing.Size(265, 22)
         Me.ID_CONSULTATextBox.TabIndex = 94
-        '
-        'DPI_PACIENTELabel
-        '
-        DPI_PACIENTELabel.AutoSize = True
-        DPI_PACIENTELabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        DPI_PACIENTELabel.Location = New System.Drawing.Point(8, 243)
-        DPI_PACIENTELabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        DPI_PACIENTELabel.Name = "DPI_PACIENTELabel"
-        DPI_PACIENTELabel.Size = New System.Drawing.Size(102, 16)
-        DPI_PACIENTELabel.TabIndex = 95
-        DPI_PACIENTELabel.Text = "DPI PACIENTE:"
         '
         'DPI_PACIENTETextBox
         '
@@ -234,17 +268,6 @@ Partial Class Consultas
         Me.DPI_PACIENTETextBox.Size = New System.Drawing.Size(265, 22)
         Me.DPI_PACIENTETextBox.TabIndex = 96
         '
-        'ID_EMPLEADOLabel
-        '
-        ID_EMPLEADOLabel.AutoSize = True
-        ID_EMPLEADOLabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        ID_EMPLEADOLabel.Location = New System.Drawing.Point(8, 275)
-        ID_EMPLEADOLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        ID_EMPLEADOLabel.Name = "ID_EMPLEADOLabel"
-        ID_EMPLEADOLabel.Size = New System.Drawing.Size(100, 16)
-        ID_EMPLEADOLabel.TabIndex = 97
-        ID_EMPLEADOLabel.Text = "ID EMPLEADO:"
-        '
         'ID_EMPLEADOTextBox
         '
         Me.ID_EMPLEADOTextBox.Location = New System.Drawing.Point(132, 272)
@@ -253,17 +276,6 @@ Partial Class Consultas
         Me.ID_EMPLEADOTextBox.Size = New System.Drawing.Size(265, 22)
         Me.ID_EMPLEADOTextBox.TabIndex = 98
         '
-        'PadecimientoLabel
-        '
-        PadecimientoLabel.AutoSize = True
-        PadecimientoLabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        PadecimientoLabel.Location = New System.Drawing.Point(9, 304)
-        PadecimientoLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        PadecimientoLabel.Name = "PadecimientoLabel"
-        PadecimientoLabel.Size = New System.Drawing.Size(93, 16)
-        PadecimientoLabel.TabIndex = 103
-        PadecimientoLabel.Text = "Padecimiento:"
-        '
         'PadecimientoTextBox
         '
         Me.PadecimientoTextBox.Location = New System.Drawing.Point(133, 301)
@@ -271,17 +283,6 @@ Partial Class Consultas
         Me.PadecimientoTextBox.Name = "PadecimientoTextBox"
         Me.PadecimientoTextBox.Size = New System.Drawing.Size(265, 22)
         Me.PadecimientoTextBox.TabIndex = 104
-        '
-        'Estado_ConsultaLabel
-        '
-        Estado_ConsultaLabel.AutoSize = True
-        Estado_ConsultaLabel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Estado_ConsultaLabel.Location = New System.Drawing.Point(9, 336)
-        Estado_ConsultaLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Estado_ConsultaLabel.Name = "Estado_ConsultaLabel"
-        Estado_ConsultaLabel.Size = New System.Drawing.Size(108, 16)
-        Estado_ConsultaLabel.TabIndex = 105
-        Estado_ConsultaLabel.Text = "Estado Consulta:"
         '
         'Estado_ConsultaTextBox
         '
@@ -329,6 +330,7 @@ Partial Class Consultas
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.Menú)
         Me.Panel2.Controls.Add(Me.PictureBox1)
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
@@ -361,7 +363,24 @@ Partial Class Consultas
         Me.PictureBox2.TabIndex = 107
         Me.PictureBox2.TabStop = False
         '
-        'Form3
+        'Menú
+        '
+        Me.Menú.BackColor = System.Drawing.Color.Yellow
+        Me.Menú.FlatAppearance.BorderSize = 0
+        Me.Menú.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Menú.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Menú.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menú.ForeColor = System.Drawing.Color.Black
+        Me.Menú.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Menú.Location = New System.Drawing.Point(1006, 583)
+        Me.Menú.Margin = New System.Windows.Forms.Padding(4)
+        Me.Menú.Name = "Menú"
+        Me.Menú.Size = New System.Drawing.Size(119, 36)
+        Me.Menú.TabIndex = 118
+        Me.Menú.Text = "Menú"
+        Me.Menú.UseVisualStyleBackColor = False
+        '
+        'Consultas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -389,7 +408,7 @@ Partial Class Consultas
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel2)
-        Me.Name = "Form3"
+        Me.Name = "Consultas"
         Me.Text = "Form3"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
@@ -422,4 +441,5 @@ Partial Class Consultas
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel2 As Panel
+    Private WithEvents Menú As Button
 End Class
